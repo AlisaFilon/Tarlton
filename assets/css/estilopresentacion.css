@@ -1,0 +1,106 @@
+/*  Alisa Filoneko (Diseño)
+    background: #b5bdc8;
+    background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    color:aqua; */
+
+/*растяжка на всю страницу*/
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+/* мраморный фон*/
+html {
+    background: url("https://images.wallpaperscraft.ru/image/mramor_kamen_poverhnost_191174_1920x1080.jpg");
+}
+
+body {
+    margin: 0px;
+    height: 700px;
+    width: ;
+}
+
+/*BANNER*/
+.banner {
+   /*background-color: darkslateblue;*/
+   width: calc(100% -20px);
+    height: 60px;
+    background-color: brown;
+    border-bottom: aqua;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    font-family: ms Comic Sans;
+
+
+
+}
+.logo {
+    justify-content:flex-start;
+
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 920px;
+    margin: -90px;
+    padding: 0 20px;
+    text-align: right;
+    background-color: #1E90FF;
+
+
+}
+.miembros img {
+   /*position: fixed;*/
+    width: 250px;
+    height: 250px;
+    justify-content: space-evenly;
+/ border: 0 px solid black;
+    border-radius: 500px;
+    box-shadow: 0px 0px 15px 10px #87CEEB;
+    border: 1px solid #1E90FF;
+}
+/*DESCRIPCION*/
+
+.descripcion {
+    font-family: calibri;
+    margin:0px;
+    font-size: 18px;
+}
+
+
+.miembros {
+    display:flex;
+    font-family: calibri;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+    /*border:3px solid grey;*/
+    /*border-radius: 500px;*/
+}
+.miembro1 {
+    flex-grow: 1;
+    /*overflow: hidden;*/
+}
+.miembro2 {
+    flex-grow: 1;
+}
+.miembro3 {
+    flex-grow: 1;
+}
+.miembro4 {
+    flex-grow: 1;
+}
+.miembro5 {
+    flex-grow: 1;
+}
+
+
+
